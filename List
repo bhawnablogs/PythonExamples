@@ -1,0 +1,13 @@
+lst = ['ABC','PQR','TRP', 1, 2, 3] # Assign the list
+lst1 = ['Product1','Product2','Product3', 5,50,60] # Assign the list
+print(['ABC','PQR','TRP']) # Print a literal list
+print(lst) # Print a list variable
+print(lst[0])
+print(lst[0] + '  ' +lst[1])
+print(lst[0] + '  ' +lst[1] + '  ' + lst1[1])
+# Below line would Index Out Of Range
+#print(lst[3])
+# prints second last element
+print(lst[-2])#prints 2nd element from last
+print(lst[2:])#prints all elements starting from index 2
+print(lst[-2:])#prints last 2 elements
