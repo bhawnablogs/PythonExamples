@@ -1,0 +1,10 @@
+def Greeting():
+    return "Welcome To Python"
+def Add(num1,num2):
+ return num1+num2
+def Product(num1,num2):
+ return num1*num2
+print(Add(5,6))
+print(Product(5,6))
+print("hello world")
+print(Greeting())
