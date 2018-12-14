@@ -1,0 +1,15 @@
+import time
+Words = ["Hello","Test"]#List of pre decided Words out of which user has to guess
+totalTurns = 3# Number of turns user would be given to guess the string
+turn = 0
+while turn < totalTurns:
+    guess = input("Guess The Word")
+    time.sleep(500)
+    turn = turn+1
+    if guess in Words:
+        print("Matched;You Won The Game") 
+        break
+    else:
+        print("Not Matched")
+        remainingturns = totalTurns - turn
+        print(remainingturns,"Are Present")
