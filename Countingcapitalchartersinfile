@@ -1,0 +1,11 @@
+def capital(inputfilename):
+   input = open(inputfilename,'r')
+   filelist = input.read()
+   count = 0
+   for c in filelist:
+       if c.isupper():
+          count+=1
+   print"Number of uppercase letters are",count  
+
+filename = input("Enter File Name")
+capital(filename)
